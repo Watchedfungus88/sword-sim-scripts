@@ -3,6 +3,8 @@ local whitelistedUsernames = {
     
     ["Sashapro05081"] = true,
     ["Janosch"] = true,
+
+    ["Ctha"] = true,
 }
 
 -- Function to check if the player's username is whitelisted
