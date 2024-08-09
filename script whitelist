@@ -1,5 +1,17 @@
-return {
-    ["Sashapro050811"] = true,
-    ["AnotherUser"] = true,
-   
-}
+-- Define the whitelist of usernames
+local whitelistedUsernames = {["Sashapro050811"] = true, ["AnotherUser"] = true}
+
+-- Function to check if the player's username is whitelisted
+local function checkIfWhitelisted(username)
+    return whitelistedUsernames[username] ~= nil
+end
+
+-- Check if the local player's username is whitelisted
+local localPlayer = game.Players.LocalPlayer
+
+if checkIfWhitelisted(localPlayer.Name) then
+    print("Whitelisted, executing!")
+else
+    -- If not whitelisted, kick the player
+    localPlayer:Kick("Not whitelisted")
+end
