@@ -1,5 +1,5 @@
 return {
     ["Sashapro050811"] = true,
     ["AnotherUser"] = true,
-    -- Add more usernames as needed
+   
 }
