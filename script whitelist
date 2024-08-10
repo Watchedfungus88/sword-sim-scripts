@@ -1,7 +1,6 @@
 -- Define the whitelist of usernames
 local whitelistedUsernames = {
     
-
     ["1609201913"] = true,
 
     ["2707946737"] = true,
