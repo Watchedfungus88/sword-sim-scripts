@@ -1,6 +1,8 @@
 -- Define the whitelist of usernames
 local whitelistedUsernames = {
     
+
+    ["1609201913"] = true,
 }
 
 -- Function to check if the player's username is whitelisted
